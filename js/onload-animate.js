@@ -2,7 +2,7 @@
 
 (function () {
 
-  const greetingsText = document.querySelector(`.greetings__text`);
+  //const greetingsText = document.querySelector(`.greetings__text`);
   const greetingsTitle = document.querySelector(`.greetings__title`);
   const greetingsStartBtn = document.querySelector(`.greetings__start-btn`);
   const greetingsTextBlock = document.querySelector(`.greetings__desc-block`);
@@ -13,7 +13,7 @@
     header.classList.add('onload');
   }
   function greetingsTextBlockAnimate() {
-    greetingsText.classList.add('onload');
+    //greetingsText.classList.add('onload');
     greetingsTextBlock.classList.add('onload');
 
     setTimeout(function() {
