@@ -1,9 +1,9 @@
 .about-us {
   display: flex;
   align-items: center;
-  padding: 45px 0 0;
+  padding: 45px 0 60px 0;
   position: relative;
-  background: #1E1E1E;
+  background: #1e1e1e;
   overflow: hidden;
 }
 
@@ -19,7 +19,7 @@
 .about-us__title {
   position: relative;
   width: fit-content;
-  color: #FFF;
+  color: #fff;
   font-weight: 800;
   line-height: 80px;
 }
@@ -37,7 +37,7 @@
 
 .about-us__desc {
   width: 41%;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 0;
 }
 
@@ -57,9 +57,10 @@
   align-items: center;
   position: relative;
   width: 40%;
-  padding: 90px 0 90px 120px;
-  background: #FFFFFF;
-  color: #1E1E1E;
+  padding: 70px 0 70px 120px;
+  background: #ffffff;
+  color: black;
+  font-weight: 500;
   opacity: 0;
 }
 
@@ -67,6 +68,14 @@
   display: block;
   font-size: 20px;
   line-height: 25px;
+  a {
+    color: black;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    &:hover {
+      color: #ff8a00;
+    }
+  }
 }
 
 .about-us__quotes {
@@ -78,9 +87,9 @@
 }
 
 .about-us__cite::after {
-  content: '';
+  content: "";
   display: block;
-  background: #FFFFFF;
+  background: #ffffff;
   width: 500px;
   height: 100%;
   position: absolute;
@@ -337,7 +346,7 @@
   }
 
   .about-us__title {
-    color: #FF961B;
+    color: #ff961b;
     position: relative;
     width: fit-content;
   }
@@ -371,10 +380,8 @@
   }
 
   .about-us .about-us__title {
-    color: #FF961B;
+    color: #ff961b;
     font-size: 25px;
     line-height: 30px;
   }
-
 }
-

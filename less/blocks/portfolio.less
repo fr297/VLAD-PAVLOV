@@ -1,24 +1,24 @@
 .portfolio {
   min-height: 700px;
-  background: #1E1E1E;
+  background: #1e1e1e;
 }
 
 .portfolio .container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 700px;
-  padding-top: 80px;
+  gap: 45px;
+  justify-content: center;
+  height: 1000px;
+  padding-top: 45px;
   padding-bottom: 80px;
 }
 
 .portfolio__title {
   text-align: center;
   width: 100%;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 800;
   font-size: 40px;
-  line-height: 80px;
 }
 
 .slider {
@@ -34,10 +34,23 @@
 .slider__item {
   flex: 0 0 33.333333%;
   max-width: 33.333333%;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 0;
   tab-index: 0;
   cursor: pointer;
+  a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    margin: 40px 0 0 0;
+    padding: 0 20px;
+    &:hover {
+      color: #ff8a00;
+    }
+  }
 }
 
 .slider__item img {
@@ -59,14 +72,14 @@
   transform: translateY(-50%);
   background: #101010;
   cursor: pointer;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   font-size: 0px;
 }
 
 .slider__control:hover,
 .slider__control:focus {
-  background: rgba(255, 255, 255, .2);
-  transition: all .3s ease;
+  background: rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
 }
 
 .slider__control_show {
@@ -82,7 +95,7 @@
 }
 
 .slider__control::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 20px;
   height: 20px;

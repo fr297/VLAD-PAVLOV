@@ -5,7 +5,7 @@
   z-index: 10;
   width: 100%;
   height: 80px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   opacity: 0;
   transition: all 1.5s ease;
 }
@@ -28,18 +28,18 @@
   min-width: 212px;
   height: 40px;
   padding: 5px 20px 5px 35px;
-  border-top: 0 solid #FF8A00;
-  border-bottom: 0 solid #FF8A00;
-  border-left: 4px solid #FF8A00;
-  border-right: 4px solid #FF8A00;
-  background: #FFFFFF;
+  border-top: 0 solid #ff8a00;
+  border-bottom: 0 solid #ff8a00;
+  border-left: 4px solid #ff8a00;
+  border-right: 4px solid #ff8a00;
+  background: #ffffff;
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
   line-height: 20px;
   letter-spacing: 0.05em;
-  color: #FF8A00;
-  transition: all .1s ease;
+  color: #ff8a00;
+  transition: all 0.1s ease;
   cursor: pointer;
 }
 
@@ -48,6 +48,11 @@
   align-items: center;
   height: 100%;
   font-size: 0px;
+  h1 {
+    font-size: 35px;
+    font-weight: 800;
+    color: black;
+  }
 }
 
 .header__logo svg {
@@ -56,29 +61,30 @@
 
 .header__logo-stripes {
   fill: #505050;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .header__logo-shining {
+  width: 53px;
   opacity: 0;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .header__logo:hover .header__logo-shining,
 .header__logo:focus .header__logo-shining {
   opacity: 1;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .header__logo:active .header__logo-shining {
   opacity: 0;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .header__logo:hover .header__logo-stripes,
 .header__logo:focus .header__logo-stripes {
-  fill: #FFD335;
-  transition: all .3s ease;
+  fill: #ffd335;
+  transition: all 0.3s ease;
 }
 
 .header__start-btn-plus {
@@ -88,15 +94,15 @@
   left: 15px;
   top: 50%;
   transform: translateY(-45%);
-  fill: #FF8A00;
-  transition: all .3s ease;
+  fill: #ff8a00;
+  transition: all 0.3s ease;
 }
 
 .header__start-btn:hover,
 .header__start-btn:focus {
-  border-top: 4px solid #FF8A00;
-  border-bottom: 4px solid #FF8A00;
-  transition: all .3s ease;
+  border-top: 4px solid #ff8a00;
+  border-bottom: 4px solid #ff8a00;
+  transition: all 0.3s ease;
 }
 
 .header__lang-wrap {
@@ -155,13 +161,14 @@
     width: 100%;
     height: 100vh;
     padding: 0 45px;
-    background: url("../img/svg/burger-bg.svg") no-repeat right bottom, #FFFFFF;
+    background: url("../img/svg/burger-bg.svg") no-repeat right bottom, #ffffff;
     background-size: 65%;
     flex-direction: column-reverse;
     justify-content: flex-end;
     align-items: flex-start;
-    -webkit-animation: slide-out-left 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-    animation: slide-out-left 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    -webkit-animation: slide-out-left 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+      both;
+    animation: slide-out-left 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   }
 
   .phone-btn-wrap {
@@ -199,7 +206,7 @@
   }
 
   .active-lang {
-    color: #FF8F04;
+    color: #ff8f04;
   }
 
   .phone {
@@ -210,7 +217,7 @@
     font-size: 17px;
     font-weight: 700;
     line-height: 20px;
-    color: #FF7A00;
+    color: #ff7a00;
     margin-top: 30px;
   }
 
@@ -258,11 +265,11 @@
     transform: rotate(180deg);
   }
   .line {
-    fill:none;
+    fill: none;
     transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-    stroke:#000;
-    stroke-width:5.5;
-    stroke-linecap:round;
+    stroke: #000;
+    stroke-width: 5.5;
+    stroke-linecap: round;
   }
   .ham6 .top {
     stroke-dasharray: 40 172;
@@ -285,8 +292,9 @@
 }
 
 .slide-in-left {
-  -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 @-webkit-keyframes slide-in-left {
@@ -315,8 +323,9 @@
 }
 
 .slide-out-left {
-  -webkit-animation: slide-out-left 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-  animation: slide-out-left 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  -webkit-animation: slide-out-left 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+    both;
+  animation: slide-out-left 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 
 @-webkit-keyframes slide-out-left {
