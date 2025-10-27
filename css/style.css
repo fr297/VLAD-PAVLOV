@@ -54,7 +54,7 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
   /* 2 */
 }
 b,
@@ -180,28 +180,32 @@ template {
 }
 @font-face {
   font-family: "Houschka";
-  src: url("../fonts/HouschkaPro-Light.woff2"), url("../fonts/HouschkaPro-Light.woff");
+  src: url("../fonts/HouschkaPro-Light.woff2"),
+    url("../fonts/HouschkaPro-Light.woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Houschka";
-  src: url("../fonts/HouschkaPro-Medium.woff2"), url("../fonts/HouschkaPro-Medium.woff");
+  src: url("../fonts/HouschkaPro-Medium.woff2"),
+    url("../fonts/HouschkaPro-Medium.woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Houschka";
-  src: url("../fonts/HouschkaPro-Bold.woff2"), url("../fonts/HouschkaPro-Bold.woff");
+  src: url("../fonts/HouschkaPro-Bold.woff2"),
+    url("../fonts/HouschkaPro-Bold.woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Houschka";
-  src: url("../fonts/HouschkaPro-ExtraBold.woff2"), url("../fonts/HouschkaPro-ExtraBold.woff");
+  src: url("../fonts/HouschkaPro-ExtraBold.woff2"),
+    url("../fonts/HouschkaPro-ExtraBold.woff");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -214,8 +218,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Houschka', Arial, sans-serif;
-  color: #1E1E1E;
+  font-family: "Houschka", Arial, sans-serif;
+  color: #1e1e1e;
 }
 a {
   text-decoration: none;
@@ -226,7 +230,7 @@ ul {
   margin: 0;
 }
 h2 {
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 36px;
@@ -243,18 +247,18 @@ input[type="checkbox"] + label {
   position: relative;
 }
 input[type="checkbox"] + label::before {
-  content: '';
+  content: "";
   display: block;
   width: 35px;
   height: 36px;
-  background: url('../img/svg/check-off.svg') no-repeat;
+  background: url("../img/svg/check-off.svg") no-repeat;
   position: absolute;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
 }
 input[type="checkbox"]:checked + label::before {
-  background: url('../img/svg/check-on.svg') no-repeat;
+  background: url("../img/svg/check-on.svg") no-repeat;
   position: absolute;
   left: 0;
 }
@@ -281,8 +285,8 @@ input[type="checkbox"]:checked + label::before {
   font-weight: 600;
   font-size: 25px;
   letter-spacing: 0.15em;
-  color: #FFFFFF;
-  background: linear-gradient(180deg, #FFCA46 0%, #FF9200 100%);
+  color: #ffffff;
+  background: linear-gradient(180deg, #ffca46 0%, #ff9200 100%);
   border-radius: 0px 50px 50px 100px;
   border: none;
   transition: all 0.3s ease;
@@ -299,17 +303,17 @@ input[type="checkbox"]:checked + label::before {
 }
 .start-btn:hover,
 .start-btn:focus {
-  box-shadow: 0px 0px 15px #FF8A00;
+  box-shadow: 0px 0px 15px #ff8a00;
   transition: all 0.3s ease;
 }
 .start-btn:active {
-  color: #FFFFFF;
-  background: linear-gradient(180deg, #FFA829 0%, #FF6D01 100%);
+  color: #ffffff;
+  background: linear-gradient(180deg, #ffa829 0%, #ff6d01 100%);
   transition: all 0.3s ease;
   box-shadow: none;
 }
 .start-btn-arrow {
-  fill: #FAFAFA;
+  fill: #fafafa;
   transition: all 0.3s ease;
 }
 .start-btn:active .start-btn-arrow {
@@ -338,7 +342,7 @@ input[type="checkbox"]:checked + label::before {
   font-size: 15px;
   line-height: 140%;
   letter-spacing: 0.05em;
-  color: #BDBDBD;
+  color: #bdbdbd;
   cursor: pointer;
 }
 .phone-region-btn.active {
@@ -358,7 +362,7 @@ input[type="checkbox"]:checked + label::before {
 }
 .phone:hover,
 .phone:focus {
-  color: #FF7A00;
+  color: #ff7a00;
   transition: all 0.3s ease;
 }
 .phone.active {
@@ -369,7 +373,7 @@ input[type="checkbox"]:checked + label::before {
   padding-right: 0;
   position: relative;
   border: none;
-  background: #FFFFFF;
+  background: #ffffff;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -390,7 +394,7 @@ input[type="checkbox"]:checked + label::before {
   position: relative;
 }
 .polish-lang::before {
-  content: '|';
+  content: "|";
   font-weight: 700;
   position: absolute;
   left: 0;
@@ -738,7 +742,7 @@ input[type="checkbox"]:checked + label::before {
   align-items: center;
   padding: 50px 60px;
   position: relative;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 .contact-form {
   width: 100%;
@@ -757,7 +761,7 @@ input[type="checkbox"]:checked + label::before {
   grid-template-rows: 33% 33% 33%;
   width: 95%;
   height: auto;
-  color: #1E1E1E;
+  color: #1e1e1e;
   font-weight: 500;
   font-size: 20px;
   line-height: 25px;
@@ -777,7 +781,7 @@ input[type="checkbox"]:checked + label::before {
 .contact-form__textarea-wrap textarea {
   height: 83.5%;
   resize: none;
-  border: 1px solid #B6B6B6;
+  border: 1px solid #b6b6b6;
   padding: 10px;
   color: #000;
   font-weight: 500;
@@ -800,7 +804,7 @@ input[type="checkbox"]:checked + label::before {
 .contact-form__text-input {
   width: 90%;
   background: none;
-  border: 1px solid #B6B6B6;
+  border: 1px solid #b6b6b6;
   padding: 10px 35px 10px 10px;
   letter-spacing: 0.03em;
   font-weight: 500;
@@ -891,7 +895,7 @@ input[type="checkbox"]:checked + label::before {
   overflow: hidden;
   text-overflow: ellipsis;
   cursor: pointer;
-  color: #9A9A9A;
+  color: #9a9a9a;
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
@@ -985,14 +989,14 @@ input[type="checkbox"]:checked + label::before {
   position: relative;
 }
 .greetings__text::before {
-  content: '';
+  content: "";
   display: block;
   width: 100%;
   height: 5px;
   position: absolute;
   left: 0;
   bottom: 0;
-  background: #FF961B;
+  background: #ff961b;
   opacity: 0;
   transition: all 0.3s ease;
 }
@@ -1012,7 +1016,7 @@ input[type="checkbox"]:checked + label::before {
   line-height: 20px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #1E1E1E;
+  color: #1e1e1e;
   transform: translateY(100px);
   opacity: 0;
   transition: all 0.5s ease;
@@ -1049,7 +1053,7 @@ input[type="checkbox"]:checked + label::before {
   transition: all 0.5s ease;
 }
 .greetings__title-accent {
-  color: #FF961B;
+  color: #ff961b;
 }
 .greetings__pic-wrap {
   height: 90%;
@@ -1082,7 +1086,7 @@ input[type="checkbox"]:checked + label::before {
   list-style: none;
   width: 20px;
   height: 20px;
-  background: #FFAA00;
+  background: #ffaa00;
   animation: animate 25s linear infinite;
   bottom: -150px;
 }
@@ -1172,7 +1176,8 @@ input[type="checkbox"]:checked + label::before {
 }
 @keyframes tilt-in-fwd-tr {
   0% {
-    transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
+    transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px)
+      skew(-35deg, 10deg);
     opacity: 0;
   }
   100% {
@@ -1201,7 +1206,7 @@ input[type="checkbox"]:checked + label::before {
     height: auto;
   }
   .greetings::after {
-    content: '';
+    content: "";
     display: block;
     height: 45px;
     background: #1e1e1e;
@@ -1248,7 +1253,7 @@ input[type="checkbox"]:checked + label::before {
     transition: all 0.5s ease;
   }
   .greetings__mobile-list::before {
-    content: '';
+    content: "";
     display: block;
     position: absolute;
     left: 0;
@@ -1264,19 +1269,23 @@ input[type="checkbox"]:checked + label::before {
     position: relative;
   }
   .greetings__mobile-item::before {
-    content: '';
+    content: "";
     display: block;
     position: absolute;
     width: 30px;
     height: 30px;
     left: -34px;
     top: -6px;
-    background: radial-gradient(34.04% 34.04% at 50% 50%, #FF961B 12.5%, rgba(255, 255, 255, 0) 100%);
+    background: radial-gradient(
+      34.04% 34.04% at 50% 50%,
+      #ff961b 12.5%,
+      rgba(255, 255, 255, 0) 100%
+    );
   }
   .greetings__mobile-btn {
     background: transparent;
     border: none;
-    color: #1E1E1E;
+    color: #1e1e1e;
   }
   .area {
     width: 100%;
@@ -2015,9 +2024,6 @@ input[type="checkbox"]:checked + label::before {
     width: 40%;
     max-width: 140px;
     height: auto;
-  }
-  .slider__item:nth-child(even) {
-    background: #363636;
   }
   .slider__control {
     display: none;
