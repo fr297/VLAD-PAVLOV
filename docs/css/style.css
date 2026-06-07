@@ -790,7 +790,7 @@ input[type="checkbox"]:checked + label::before {
   align-items: center;
   padding: 50px 60px;
   position: relative;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 .contact-form {
   width: 100%;
@@ -809,7 +809,7 @@ input[type="checkbox"]:checked + label::before {
   grid-template-rows: 33% 33% 33%;
   width: 95%;
   height: auto;
-  color: #1E1E1E;
+  color: #1e1e1e;
   font-weight: 500;
   font-size: 20px;
   line-height: 25px;
@@ -829,7 +829,7 @@ input[type="checkbox"]:checked + label::before {
 .contact-form__textarea-wrap textarea {
   height: 83.5%;
   resize: none;
-  border: 1px solid #B6B6B6;
+  border: 1px solid #b6b6b6;
   padding: 10px;
   color: #000;
   font-weight: 500;
@@ -852,7 +852,7 @@ input[type="checkbox"]:checked + label::before {
 .contact-form__text-input {
   width: 90%;
   background: none;
-  border: 1px solid #B6B6B6;
+  border: 1px solid #b6b6b6;
   padding: 10px 35px 10px 10px;
   letter-spacing: 0.03em;
   font-weight: 500;
@@ -943,7 +943,7 @@ input[type="checkbox"]:checked + label::before {
   overflow: hidden;
   text-overflow: ellipsis;
   cursor: pointer;
-  color: #9A9A9A;
+  color: #9a9a9a;
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
